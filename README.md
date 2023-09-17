@@ -1,4 +1,4 @@
-# ArcticFoxComunity-web
+# ArcticFoxComunity-web-EN
 
 # this code is not to be used by anyone! this is purely for the Arctic fox comunity!
 
