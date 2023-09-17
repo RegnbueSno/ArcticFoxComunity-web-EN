@@ -1,5 +1,4 @@
-
-.img-mod-main{
+.img-mod-main {
   width: 80px;
   height: 80px;
   border-width: 2px;
@@ -11,7 +10,7 @@
 }
 
 
-.img-container{
+.img-container {
   display: inline-block;
   margin: 0;
   position: relative;
@@ -20,32 +19,33 @@
   justify-content: center;
   justify-items: center;
   align-content: center;
-  
+
 }
 
-.images-main{
+.images-main {
   max-width: 80*3px;
   margin: 0;
   padding-bottom: 15px;
   margin-block-start: 0;
-  
+
 }
 
-.img-mod-main .mod-titles{
+.img-mod-main .mod-titles {
   position: absolute;
   justify-content: center;
   align-items: center;
-  
+
 }
-.mod-titles{
+
+.mod-titles {
   display: block;
 }
 
-.link-bellow{
+.link-bellow {
   background-color: brown;
   position: absolute;
 }
 
-.link-bellow-div{
+.link-bellow-div {
   position: relative;
 }
