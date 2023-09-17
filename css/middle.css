@@ -1,4 +1,4 @@
-.title-container{
+.title-container {
   flex-direction: row;
   font-size: 50px;
   display: flex;
@@ -9,7 +9,7 @@
   padding: 0 5px 0 5px;
 }
 
-.title{
+.title {
   background-image: linear-gradient(90deg, rgb(0, 163, 0), rgb(96, 0, 155));
   min-width: 500px;
   white-space: nowrap;
@@ -24,20 +24,25 @@
   min-width: 552px
 }
 
-span.link{
+span.link {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 12;
+  z-index: 1;
 }
 
-.left{
+a {
+  z-index: 2;
+}
+
+
+.left {
   min-width: 115px;
 }
 
-.mod-container{
+.mod-container {
   flex-direction: row;
   display: flex;
   flex-direction: row;
@@ -47,8 +52,8 @@ span.link{
   height: auto;
 }
 
-.mod-main{
- 
+.mod-main {
+
   min-width: 500px;
   padding-bottom: 50px;
   justify-content: center;
@@ -61,15 +66,15 @@ span.link{
   padding-top: 10px;
   white-space: nowrap;
   height: auto;
-  
+
 }
 
-.modleft{
-  min-width:130px;
+.modleft {
+  min-width: 130px;
 }
 
 
-.bottom-p{
+.bottom-p {
   font-size: 8px;
   padding-left: 30px;
   padding-right: 30px;
@@ -77,10 +82,10 @@ span.link{
   padding: 8px;
 }
 
-.mod-container .nr1{
+.mod-container .nr1 {
   border: rgb(13, 0, 255) solid;
   height: 625px;
-  width:645px;
+  width: 645px;
   overflow: scroll;
   overflow-x: hidden;
   background-image: linear-gradient(rgb(0, 162, 0), rgb(93, 0, 144));
