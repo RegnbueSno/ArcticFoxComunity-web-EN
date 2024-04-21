@@ -99,8 +99,8 @@ a {
 
 .mod-container .nr1 {
   border: rgb(13, 0, 255) solid;
-  height: 625px;
-  width: 645px;
+  min-height: 400px;
+  max-height: 800px;
   overflow: scroll;
   overflow-x: hidden;
   background-image: linear-gradient(rgb(0, 162, 0), rgb(93, 0, 144));
@@ -117,9 +117,4 @@ a {
   border: black solid;
   border-radius: 75px;
   background-color: rgba(128, 0, 128, 0.486);
-}
-
-.nr1 {
-  min-height: 400px;
-  max-height: 800px;
 }
