@@ -118,3 +118,8 @@ a {
   border-radius: 75px;
   background-color: rgba(128, 0, 128, 0.486);
 }
+
+.nr1 {
+  min-height: 400px;
+  max-height: 800px;
+}
